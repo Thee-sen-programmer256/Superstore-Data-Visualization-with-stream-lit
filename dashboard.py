@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import os
+import os,xlrd
 import plotly.express as px
 import matplotlib
 #set the page
