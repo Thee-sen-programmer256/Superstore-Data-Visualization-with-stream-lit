@@ -14,8 +14,7 @@ if st.button('Upload a file'):
     if file is not None:
         df=pd.read_csv(file.name)
 else:
-    os.chdir('/Users/mac/Downloads')
-    df=pd.read_excel('Superstore.xls')
+    df=pd.read_excel('./Superstore.xls')
 
     col1,col2=st.columns(2)
     #get the dates :
